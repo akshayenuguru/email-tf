@@ -1,3 +1,9 @@
+variable "aws_region" {
+  description = "AWS region"
+  type        = string
+  default     = "us-west-2"
+}
+
 variable "ami_id" {
   description = "The AMI ID to use"
   type        = string
